@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+venv_new/
+venv_old_backup/
+env/
+ENV/
+
+# Storage and cache
+storage/
+storage_partial/
+model_cache/
+*.log
+web_ui.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Deployment
+deployment/
+
+# Backup files
+*_backup.py
+*_old.py
